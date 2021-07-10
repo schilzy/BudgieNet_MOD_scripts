@@ -1,0 +1,116 @@
+Welcome to the BudgieNet Mod Script info file.
+This AutoHotKey script was originally Created by nitrofenix, I have just added in some extra content.
+This script was created for my personal use and I thought it might be nice to make it available to any Budgie Staff that might want to use it also.
+See below on how to use the script and what commands are in it.
+Please be aware this script will only work on Windows machines, using AutoHotKey.
+
+Most of the below commands will use Minecraft text colour codes. If you do not have VIP they will just be displayed as regular text IG.
+
+Install AutoHotKey
+Once install is complete rick click on the BudgieNet_Mod_Script.ahk file and click on "run script"
+Then enjoy the automation that this script can bring.
+
+
+Commands:
+
+  Messaging Commands
+
+  Welcome Messages:
+
+    //canary
+        This command replaces the //canary text with a Canary specific welcome message.
+
+    //budgie
+        This command replaces the //canary text with a Budgie specific welcome message.
+
+    //creative
+        This command replaces the //canary text with a Creative specific welcome message.
+
+    //Skyblock
+        This command replaces the //canary text with a Skyblock specific welcome message.
+
+    //skygrid
+        This command replaces the //canary text with a Skygrid specific welcome message.
+
+
+**** All above Welcome messages will return the cursor to just after the word Welcome to allow you to enter the players name that has just joined the server for the first time. ***
+
+  SURVIVAL GENERIC MESSAGES
+
+    //c i
+      This command replaces the //c i text with a message about how to claim land.
+
+    //web
+      This command replaces the //web text with a link to the BudgieNet Website.
+
+    //store
+      This command replaces the //store text with a link and a brief message about the BudgieNet store.
+
+    //vote
+      This command replaces the //vote text with a message about voting for the server.
+
+
+
+
+  SURVIVAL RANKS
+
+  All the below commands will insert a message about what a player will receive when ranking up to that rank.
+  Note there is no budgie one.
+
+  //nomad
+  //adv
+  //vet
+  //leg
+  //god
+
+
+  VIP PERKS
+
+  //vip
+   This command replaces the //vip text with a message about what a player will receive and get access to when they have the VIP rank on the survival servers.
+
+
+ //c code
+   This command replaces the //c code text with a link to codepen.io, where players can find  out how to colour code text once they have the VIP rank.
+
+
+ WARRNING MESSAGES
+
+ //xray & //hacking
+ Both these commands insert a private message that you can send to an offending player letting them know that they are breaking the rules. The cursor will jump back to where you need to enter the players name to be able to send them a /msg once activated.
+
+
+ MOD COMMANDS
+The below is a direct copy paste from the script to show you what commands are being activated.
+
+ User Info
+//whois::/lp user  info
+
+ User Perms
+//perms::/lp user  permission info
+
+ Diamond Ore Logs 24h
+//dilog::/co l a:-block b:diamond_ore t:24h
+
+ Ancient Debris Logs 24h
+//adlog::/co l a:-block b:ancient_debris t:24h
+
+ User Log 24h
+//ulog::/co l t:24h u:
+
+ Radius Log 24h
+//rlog::/co l t:24h r:
+
+ Minecraft Colour codes
+//codes::colours-> &00 &11 &22 &33 &44 &55 &66 &77 &88 &99 &aa &bb &cc &dd &ee &ff&r | formats -> &ll&r &mm&r &nn&r &oo&r
+
+
+
+That is everything that is in the script.
+A heads up sometimes AutoHotKey doesn't activate when you type in the correct thing, just try exiting out of the chat window and trying again usually works for me.
+Also these commands can be used in any program they are not limited to only being used in Minecraft, where ever you can type text you can activate these commands.
+
+If you have any feedback, suggestions to add in or would like a totally custom ahk script for yourself please reach out to me on discord my username is Schulzy#6872.
+
+Cheers
+I hope that this helps somewhat in not having to manually type so much in game :)
